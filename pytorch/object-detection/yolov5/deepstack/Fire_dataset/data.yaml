@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 3
+names: ['fire', 'other','smoke']
+
+roboflow:
+  workspace: fire-dataset-tp9jt
+  project: fire-detection-sejra
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fire-dataset-tp9jt/fire-detection-sejra/dataset/1
